@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de proyectos realizados por Ravelli Studio - Casos de éxito y soluciones digitales para negocios.">
+  <meta name="keywords" content="portfolio, proyectos web, landing pages, diseño web, casos de éxito">
+  <meta name="author" content="Ignacio Ravelli">
+  
+  <title>Portfolio - Ravelli Studio</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="../index.html" class="navbar-brand">Ravelli Studio</a>
+      <button class="menu-toggle" aria-label="Menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navbar-nav">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="sobre-mi.html">Sobre Mí</a></li>
+        <li><a href="proceso.html">Proceso</a></li>
+        <li><a href="contacto.html" class="navbar-cta">Contacto</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Cambiar tema">
+        <span class="icon-moon">🌙</span>
+        <span class="icon-sun">☀️</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="hero" style="min-height: 40vh;">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Casos de Éxito</h1>
+        <p>Proyectos reales que ayudaron a negocios a crecer digitalmente</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Stats -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="results-stats reveal">
+        <div class="stat-item">
+          <span class="stat-number">50+</span>
+          <span class="stat-label">Proyectos entregados</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">98%</span>
+          <span class="stat-label">Clientes satisfechos</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3+</span>
+          <span class="stat-label">Años de experiencia</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">24h</span>
+          <span class="stat-label">Tiempo de respuesta</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter Buttons -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="portfolio-filters reveal">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="restaurante">Restaurantes</button>
+        <button class="filter-btn" data-filter="servicios">Servicios</button>
+        <button class="filter-btn" data-filter="profesional">Profesionales</button>
+        <button class="filter-btn" data-filter="industrial">Industrial</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="portfolio-grid">
+        <!-- Project 1: Sabor Local -->
+        <div class="portfolio-card reveal" data-category="restaurante">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #f97316, #dc2626);">
+            <span class="demo-badge">Caso de Éxito</span>
+            <div class="portfolio-mockup">
+              <div class="mockup-header"></div>
+              <div class="mockup-content">
+                <div class="mockup-line"></div>
+                <div class="mockup-line short"></div>
+                <div class="mockup-grid">
+                  <div class="mockup-box"></div>
+                  <div class="mockup-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-type">Restaurante</span>
+            <h3>Sabor Local</h3>
+            <p>Página web completa con menú digital, sistema de reservas y ubicación con mapa interactivo.</p>
+            <div class="portfolio-metrics">
+              <div class="metric">
+                <span class="metric-value">+45%</span>
+                <span class="metric-label">Consultas</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">2.1s</span>
+                <span class="metric-label">Carga</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">100%</span>
+                <span class="metric-label">Mobile</span>
+              </div>
+            </div>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Landing Page</span>
+              <span class="portfolio-tag">Menú Digital</span>
+              <span class="portfolio-tag">WhatsApp</span>
+            </div>
+            <div class="portfolio-actions">
+              <a href="contacto.html" class="btn btn-primary" data-whatsapp-message="Hola, me gustaría algo similar al proyecto Sabor Local para mi restaurante.">Solicitar algo similar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: AutoFix -->
+        <div class="portfolio-card reveal" data-category="servicios">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8);">
+            <span class="demo-badge">Caso de Éxito</span>
+            <div class="portfolio-mockup">
+              <div class="mockup-header"></div>
+              <div class="mockup-content">
+                <div class="mockup-line"></div>
+                <div class="mockup-line short"></div>
+                <div class="mockup-grid">
+                  <div class="mockup-box"></div>
+                  <div class="mockup-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-type">Taller Mecánico</span>
+            <h3>AutoFix</h3>
+            <p>Sitio web con catálogo de servicios, formulario de presupuesto y integración con WhatsApp Business.</p>
+            <div class="portfolio-metrics">
+              <div class="metric">
+                <span class="metric-value">+60%</span>
+                <span class="metric-label">Presupuestos</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">1.8s</span>
+                <span class="metric-label">Carga</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">4.9★</span>
+                <span class="metric-label">Google</span>
+              </div>
+            </div>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Web Básica</span>
+              <span class="portfolio-tag">Servicios</span>
+              <span class="portfolio-tag">Presupuesto</span>
+            </div>
+            <div class="portfolio-actions">
+              <a href="contacto.html" class="btn btn-primary" data-whatsapp-message="Hola, me gustaría algo similar al proyecto AutoFix para mi taller.">Solicitar algo similar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Estudio Arquitectura -->
+        <div class="portfolio-card reveal" data-category="profesional">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #64748b, #334155);">
+            <span class="demo-badge">Caso de Éxito</span>
+            <div class="portfolio-mockup">
+              <div class="mockup-header"></div>
+              <div class="mockup-content">
+                <div class="mockup-line"></div>
+                <div class="mockup-line short"></div>
+                <div class="mockup-grid">
+                  <div class="mockup-box"></div>
+                  <div class="mockup-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-type">Profesional</span>
+            <h3>Estudio Arquitectura</h3>
+            <p>Portfolio elegante con galería de proyectos, animaciones suaves y formulario de contacto profesional.</p>
+            <div class="portfolio-metrics">
+              <div class="metric">
+                <span class="metric-value">+35%</span>
+                <span class="metric-label">Contactos</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">2.3s</span>
+                <span class="metric-label">Carga</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">92</span>
+                <span class="metric-label">Lighthouse</span>
+              </div>
+            </div>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Web Avanzada</span>
+              <span class="portfolio-tag">Portfolio</span>
+              <span class="portfolio-tag">Animaciones</span>
+            </div>
+            <div class="portfolio-actions">
+              <a href="contacto.html" class="btn btn-primary" data-whatsapp-message="Hola, me gustaría algo similar al proyecto Estudio Arquitectura para mi negocio.">Solicitar algo similar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Ravelli Automation Demo -->
+        <div class="portfolio-card reveal" data-category="industrial">
+          <div class="portfolio-image" style="background: linear-gradient(135deg, #8b5cf6, #6d28d9);">
+            <span class="demo-badge">Caso de Éxito</span>
+            <div class="portfolio-mockup">
+              <div class="mockup-header"></div>
+              <div class="mockup-content">
+                <div class="mockup-line"></div>
+                <div class="mockup-line short"></div>
+                <div class="mockup-grid">
+                  <div class="mockup-box"></div>
+                  <div class="mockup-box"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-content">
+            <span class="portfolio-type">Industrial</span>
+            <h3>Ravelli Automation</h3>
+            <p>Página corporativa con sección de servicios industriales, casos de éxito y formulario de contacto técnico.</p>
+            <div class="portfolio-metrics">
+              <div class="metric">
+                <span class="metric-value">+50%</span>
+                <span class="metric-label">Leads</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">1.9s</span>
+                <span class="metric-label">Carga</span>
+              </div>
+              <div class="metric">
+                <span class="metric-value">SEO</span>
+                <span class="metric-label">Optimizado</span>
+              </div>
+            </div>
+            <div class="portfolio-tags">
+              <span class="portfolio-tag">Web Avanzada</span>
+              <span class="portfolio-tag">Corporativa</span>
+              <span class="portfolio-tag">Tecnología</span>
+            </div>
+            <div class="portfolio-actions">
+              <a href="contacto.html" class="btn btn-primary" data-whatsapp-message="Hola, me gustaría algo similar al proyecto Ravelli Automation.">Solicitar algo similar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-content">
+          <div class="testimonial-stars">★★★★★</div>
+          <p class="testimonial-text">"Ravelli Studio transformó la presencia digital de mi negocio. Las consultas aumentaron un 45% en el primer mes y los clientes me encuentran fácilmente por WhatsApp."</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">CL</div>
+            <div class="testimonial-info">
+              <strong>Carlos López</strong>
+              <span>Restaurante Sabor Local</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Final -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-final reveal">
+        <h2>¿Quieres resultados similares para tu negocio?</h2>
+        <p>Cada proyecto es único. Solicita tu presupuesto sin compromiso y descubre cómo puedo ayudarte a mejorar tu presencia digital.</p>
+        <a href="contacto.html" class="btn btn-primary btn-large">Solicitar presupuesto</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Ravelli Studio</h3>
+          <p>Desarrollo web profesional para negocios que quieren crecer.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="sobre-mi.html">Sobre Mí</a></li>
+            <li><a href="proceso.html">Proceso</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <p>contacto@ravellistudio.com</p>
+          <p>WhatsApp disponible</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ravelli Studio. Todos los derechos reservados. Hecho con pasión por Ravelli Studio</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

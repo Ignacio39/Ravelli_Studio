@@ -1,0 +1,183 @@
+{
+  "brand": {
+    "name": "Ravelli Studio",
+    "tagline": "Desarrollo Web y Soluciones Digitales",
+    "personal": "Ravelli Studio by Ignacio Ravelli"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "portfolio": "Portfolio",
+    "about": "Sobre Mí",
+    "process": "Proceso",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Desarrollo web moderno para negocios que quieren crecer",
+    "subtitle": "Creo páginas profesionales que ayudan a negocios y emprendedores a mejorar su presencia digital.",
+    "cta_primary": "Solicitar presupuesto",
+    "cta_secondary": "Ver proyectos"
+  },
+  "services": {
+    "section_title": "Servicios",
+    "section_subtitle": "Soluciones digitales adaptadas a las necesidades de tu negocio",
+    "landing": {
+      "name": "Landing Page",
+      "description": "Página web simple y profesional para negocios que necesitan comenzar su presencia digital.",
+      "features": [
+        "Diseño moderno y atractivo",
+        "100% adaptable a celulares",
+        "Información de tu negocio",
+        "Servicios destacados",
+        "Botón de WhatsApp integrado",
+        "Ubicación y contacto",
+        "Llamadas a la acción efectivas"
+      ],
+      "target": "Negocios que están comenzando su presencia digital",
+      "cta": "Solicitar presupuesto"
+    },
+    "basic": {
+      "name": "Web Profesional Básica",
+      "description": "Una página más completa para negocios que necesitan transmitir mayor confianza y profesionalismo.",
+      "features": [
+        "Página de inicio completa",
+        "Información detallada del negocio",
+        "Sección de servicios",
+        "Galería de imágenes",
+        "Formulario de contacto",
+        "Integración con redes sociales",
+        "Preguntas frecuentes"
+      ],
+      "target": "Negocios que buscan transmitir confianza y profesionalismo",
+      "cta": "Solicitar presupuesto"
+    },
+    "advanced": {
+      "name": "Web Profesional Avanzada",
+      "description": "Una solución visual más completa para empresas o marcas que buscan destacar y diferenciarse.",
+      "features": [
+        "Diseño 100% personalizado",
+        "Múltiples secciones",
+        "Animaciones modernas",
+        "Experiencia de usuario premium",
+        "SEO optimizado",
+        "Portfolio profesional",
+        "Integraciones externas"
+      ],
+      "not_include": [
+        "Panel administrativo",
+        "Gestión interna de usuarios",
+        "Sistemas complejos"
+      ],
+      "target": "Empresas y marcas que buscan destacar",
+      "cta": "Solicitar presupuesto"
+    },
+    "request_quote": "Solicitar presupuesto"
+  },
+  "portfolio": {
+    "section_title": "Portfolio",
+    "section_subtitle": "Proyectos realizados por Ravelli Studio",
+    "demo_label": "Proyecto demostrativo realizado por Ravelli Studio",
+    "projects": [
+      {
+        "name": "Sabor Local",
+        "type": "Restaurante",
+        "description": "Página para restaurante con menú, ubicación y contacto.",
+        "tags": ["Landing Page", "Restaurante", "Contacto"]
+      },
+      {
+        "name": "AutoFix",
+        "type": "Taller Mecánico",
+        "description": "Página para taller mecánico con servicios y solicitud de presupuesto.",
+        "tags": ["Web Básica", "Servicios", "Presupuesto"]
+      },
+      {
+        "name": "Estudio Arquitectura",
+        "type": "Profesional",
+        "description": "Página elegante para mostrar trabajos profesionales de arquitectura.",
+        "tags": ["Web Avanzada", "Portfolio", "Diseño"]
+      },
+      {
+        "name": "Ravelli Automation Demo",
+        "type": "Industrial",
+        "description": "Página relacionada con tecnología y automatización industrial.",
+        "tags": ["Web Avanzada", "Tecnología", "Automatización"]
+      }
+    ],
+    "view_project": "Ver proyecto",
+    "coming_soon": "Próximamente"
+  },
+  "about": {
+    "section_title": "Sobre Mí",
+    "name": "Ignacio Ravelli",
+    "role": "Desarrollador Web & Soluciones Digitales",
+    "bio": "Soy Ignacio Ravelli, desarrollador interesado en crear soluciones digitales combinando programación, tecnología y automatización.",
+    "description": "Mi enfoque está en ayudar a negocios y emprendedores a tener una presencia digital profesional y efectiva. Creo que cada negocio merece una página web que refleje su identidad y ayude a crecer.",
+    "skills": [
+      "Desarrollo Web",
+      "Programación",
+      "Automatización",
+      "Tecnología",
+      "Diseño UX/UI"
+    ],
+    "cta": "Trabajemos juntos"
+  },
+  "process": {
+    "section_title": "Mi Proceso",
+    "section_subtitle": "Metodología clara y transparente para cada proyecto",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Análisis",
+        "description": "Analizamos tu necesidad y objetivos para entender exactamente lo que tu negocio requiere."
+      },
+      {
+        "number": "02",
+        "title": "Propuesta",
+        "description": "Diseñamos una propuesta personalizada con la mejor solución para tu caso."
+      },
+      {
+        "number": "03",
+        "title": "Desarrollo",
+        "description": "Desarrollamos tu página web con las mejores prácticas y tecnologías modernas."
+      },
+      {
+        "number": "04",
+        "title": "Revisiones",
+        "description": "Realizamos las revisiones necesarias hasta que estés 100% conforme con el resultado."
+      },
+      {
+        "number": "05",
+        "title": "Publicación",
+        "description": "Publicamos tu página y la dejamos lista para que tus clientes la encuentren."
+      }
+    ]
+  },
+  "contact": {
+    "section_title": "Contacto",
+    "section_subtitle": "¿Listo para comenzar tu proyecto? Hablemos.",
+    "whatsapp": {
+      "title": "WhatsApp",
+      "description": "La forma más rápida de contactarme",
+      "button": "Solicitar presupuesto",
+      "message": "Hola, quiero consultar por una página web para mi negocio."
+    },
+    "email": {
+      "title": "Email",
+      "description": "Escríbeme un correo electrónico",
+      "button": "Enviar email"
+    },
+    "availability": "Disponible para nuevos proyectos"
+  },
+  "footer": {
+    "description": "Desarrollo web profesional para negocios que quieren crecer.",
+    "quick_links": "Enlaces Rápidos",
+    "contact_info": "Contacto",
+    "rights": "Todos los derechos reservados.",
+    "made_with": "Hecho con pasión por Ravelli Studio"
+  },
+  "cta_final": {
+    "title": "¿Quieres llevar tu negocio al siguiente nivel?",
+    "subtitle": "Solicita tu presupuesto sin compromiso y descubre cómo puedo ayudarte a mejorar tu presencia digital.",
+    "button": "Solicitar presupuesto"
+  }
+}
