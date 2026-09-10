@@ -59,7 +59,7 @@ ravelli-studio/
 Edita el archivo `js/main.js` y busca la línea:
 
 ```javascript
-const phone = link.dataset.whatsappPhone || '5491112345678';
+const phone = link.dataset.whatsappPhone || '5492657311791';
 ```
 
 Cambia el número por el tuyo.

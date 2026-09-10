@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const whatsappLinks = document.querySelectorAll('[data-whatsapp-message]');
   whatsappLinks.forEach(link => {
     const message = encodeURIComponent(link.dataset.whatsappMessage);
-    const phone = link.dataset.whatsappPhone || '5491112345678';
+    const phone = link.dataset.whatsappPhone || '5492657311791';
     link.href = `https://wa.me/${phone}?text=${message}`;
     link.target = '_blank';
   });
