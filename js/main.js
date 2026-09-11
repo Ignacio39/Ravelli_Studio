@@ -104,7 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
     link.href = `https://wa.me/${phone}?text=${message}`;
     link.target = '_blank';
   });
-});
 
   // Portfolio Filters
   const filterBtns = document.querySelectorAll('.filter-btn');
@@ -113,9 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (filterBtns.length > 0 && portfolioCards.length > 0) {
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
-        // Remove active class from all buttons
         filterBtns.forEach(b => b.classList.remove('active'));
-        // Add active class to clicked button
         btn.classList.add('active');
 
         const filter = btn.dataset.filter;
@@ -138,3 +135,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
+});
